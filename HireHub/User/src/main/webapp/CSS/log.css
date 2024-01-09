@@ -1,0 +1,66 @@
+body {
+  background-color: #04aa6d2d; /* Sky Blue */
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  width: 100%;
+
+}
+
+.profile-icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 10px 0 0 0;
+}
+.checkbox-agreement {
+  margin: 10px 0 0 0;
+}
+.chec {
+  width: 20px;
+}
+
+button {
+  background-color:#04aa6d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}

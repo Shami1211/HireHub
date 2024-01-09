@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+/* Add your custom CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-left: 300px;
+    width: 900px;
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  padding-left:0px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+form {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.profile-icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

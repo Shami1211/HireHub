@@ -1,0 +1,229 @@
+/* Add your CSS inside a <style> tag or link to an external CSS file */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* WebKit scrollbar styling */
+::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #04aa6d; /* Set the thumb color */
+  border-radius: 6px; /* Add rounded corners to the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #04aa6d; /* Change thumb color on hover */
+}
+
+body {
+  background-color: #04aa6d2d; /* Sky Blue */
+}
+
+.h1m {
+  text-align: center;
+  color: #04aa6d;
+  font-size: 45px;
+  margin: 25px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #04aa6d;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #04aa6d;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+input[readonly] {
+  background-color: #ffffff;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  background-color: #04aa6d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.chec {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #04aa6d;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  color: #04aa6d;
+  font-size: 45px;
+  margin: 25px;
+}
+
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+input[readonly] {
+  background-color: #ffffff;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  background-color: #04aa6d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.chec {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #04aa6d;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: white;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the logo */
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333; /* You can set your logo text color */
+}
+
+.iconu {
+  width: 45px;
+  cursor: pointer;
+}
+
+/* Style the menu */
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333; /* Default link color */
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #04aa6d; /* Link color on hover */
+}
+
+/* Style the user profile */
+.profile {
+  font-weight: bold;
+  color: #333;
+}
+
+.footer {
+  background-color: white; /* Footer background color */
+  color: #333; /* Footer text color */
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  font-size: 14px;
+  font-weight: bold;
+}
